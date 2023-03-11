@@ -80,9 +80,17 @@ function RenderLandingPage(props) {
           </h3>
         </div>
       </div>
-      <div>
+      <div className="bottom-section">
         {/* Bottom Section: Add code here for the graphs section for your first ticket */}
         {/* <div className="bottom-section">*/}
+
+        <Button
+          type="default"
+          style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}
+        >
+          Read More
+        </Button>
+
         <p onClick={() => scrollToTop()} className="back-to-top">
           Back To Top ^
         </p>
