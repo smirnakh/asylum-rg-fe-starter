@@ -125,6 +125,7 @@ function GraphWrapper(props) {
             params: {
               from: years[0],
               to: years[1],
+              office: office,
             },
           }
         );
